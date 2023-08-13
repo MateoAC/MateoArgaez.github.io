@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><img src="assets/TEO-removebg-preview.png" alt="" width="350px"></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#projects">Portafolio de trabajo</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Mateo Argaez</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/teo2.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hola, soy</p>
+        <h1 class="title">Mateo Argaez</h1>
+        <p class="section__text__p2">Productor multimedia</p>
+        <div class="btn-container">
+          <p>Mi trabajo es más que simples proyectos, es una narrativa visual que invita a las personas a sumergirse en un mundo de posibilidades. cada proyecto es una oportunidad para explorar, aprender y crecer, si estás buscando dar vida a tus ideas con un toque de originalidad y profesionalismo, no busques más estoy aquí para convertir tus sueños en una experiencia multimedia única.</p>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+
+      <div class="section-container">
+    
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experiencia</h3>
+              <p><br />A lo largo de mi vida he estado muy familiarizado con la tecnología, y debido a esto he tenido aprendizaje por mi propia cuenta, he tomado experiencia haciendo logos para personas conocidas y demás cosas como catálogos en herramientas como Adobe Illustrator además de esto he utilizado editores de video como Adobe After Effects y aplicaciones de diseño 3D como Blender</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Educación</h3>
+              <p> <br> Primaria Divino Salvador <br />  <br>Bachiller técnico I.E Ana De Castrillon <br>  <br>Tecnólogo en Producción de Multimedia SENA </p>
+            </div>
+          </div>
+          <div class="text-container">
+           
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <h1 class="title">Portafolio de trabajos</h1>
+      <section id="tranding">
+        <div class="container">
+        </div>
+        <div class="container">
+          <div class="swiper tranding-slider">
+            <div class="swiper-wrapper">
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="Portafolioimagenes/Logo2.png" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  
+                  <div class="tranding-slide-content-bottom">
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="Portafolioimagenes/Logo.png" alt="Tranding" >
+                </div>
+                <div class="tranding-slide-content">
+                  
+                  <div class="tranding-slide-content-bottom">
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="Portafolioimagenes/3D1.JPG" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <div class="tranding-slide-content-bottom">
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="Portafolioimagenes/3D2.JPG" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <div class="tranding-slide-content-bottom">
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="Portafolioimagenes/3D3.JPG" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <div class="tranding-slide-content-bottom">
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="Portafolioimagenes/Pixelart1.png" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  
+                  <div class="tranding-slide-content-bottom">
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="Portafolioimagenes/Pixelart2.png" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <div class="tranding-slide-content-bottom">
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+                   <!-- Slide-start -->
+                   <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                      <img src="Portafolioimagenes/Pixelart3.png" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+                      <div class="tranding-slide-content-bottom">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="Portafolioimagenes/After Effects 3.gif" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  
+                  <div class="tranding-slide-content-bottom">
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+                  <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="Portafolioimagenes/After Effects 2.gif" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  
+                  <div class="tranding-slide-content-bottom">
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+                  <!-- Slide-end -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="Portafolioimagenes/After Effects.gif" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  
+                  <div class="tranding-slide-content-bottom">
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="tranding-slider-control">
+              <div class="swiper-button-prev slider-arrow">
+                <ion-icon name="arrow-back-outline"></ion-icon>
+              </div>
+              <div class="swiper-button-next slider-arrow">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+  
+          </div>
+        </div>
+      </section>
+  
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="contact">
+      <h1 class="title">Ponte en contacto conmigo</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">mateoargaezcorrea321@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="Portafolioimagenes/whatsapp.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://wa.me/573194964397?text=Hola,%20Quiero%20saber%20m+as%20sobre%20tus%20servicios">WhatsApp</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Portafolio de trabajo</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Mateo. All Rights Reserved.</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
